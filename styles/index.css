@@ -1,7 +1,36 @@
 body {
     margin: 0;
+    background-color: #dee0e0;
+    color: #11151C;
 }
 
-.ish {
+.banner-image {
+    background-image: url(../images/skiing.JPG);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 22em;
+    width: 100%;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    transform: translateY(50px);
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title h1{
+    color: #11151C;
+}
+
+.content {
+    padding: 100px;
     height: 50em;
+    background-color: #dee0e0;
+}
+
+.content-wrapper{
+    background-color: #7d98a1;
+    width: 80vw;
+    height: 60vh;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }

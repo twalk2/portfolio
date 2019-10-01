@@ -1,30 +1,15 @@
-
-
-.banner-image {
-    background-image: url(../images/skiing.JPG);   
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 22em;
-    width: 100%;
-    filter:brightness(80%);
-    border-bottom-left-radius: 50% 20%;
-    border-bottom-right-radius: 50% 20%;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
-    transform: translateY(50px);
-    z-index: 0;
-}
-
 .nav-bar {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 999;
     width: 100vw;
     height: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F363D;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
 
@@ -42,13 +27,23 @@
     display: flex;
     justify-content: space-between;
 }
-.links-wrapper a{
+.link-styles{
     color: #DEE0E0;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 50px;
+}
+
+.link-styles a{
     transition: 1s;
 }
 
-.links-wrapper a:hover{
-    letter-spacing: 1px;
-    transform-origin: center;
+.link-styles a:hover{
+    border-top: #FF6F59 1px solid;
+    border-bottom: #FF6F59 1px solid;
+    letter-spacing: 2px;
+    color: #FF6F59;
 }
